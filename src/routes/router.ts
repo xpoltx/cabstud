@@ -9,12 +9,12 @@ const router = express.Router();
 
 
 export default (): express.Router =>{
-    user(router);       //tested
-    authentication(router); // tested
-    studentInfo(router); // tested
-    discipline(router); //tested
-    studyPlan(router); // tested
-    gradebook(router); //tested
+    user(router);       
+    authentication(router); 
+    studentInfo(router); 
+    discipline(router); 
+    studyPlan(router); 
+    gradebook(router); 
     return router;
 }
 
